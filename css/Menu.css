@@ -1,0 +1,245 @@
+.menu-table{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    flex-direction: column;
+    text-align: center;
+}
+.menu-table .menu-heading{
+    font-size: 2.1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+   
+}
+.main-dish::before{
+ display: block;
+ position: absolute;
+ bottom: -6px;
+ content: "";
+ width: 90%;
+ height: 4px;
+ border-bottom: 3px solid forestgreen;
+}
+.menu-table .line-menu{
+    display: block;
+    height: 2px;
+    border-bottom:1px solid #000 ;
+    width: 100%;
+}
+.menu-table .wrapper-menu{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    gap: 2em;
+}
+.soup{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1em;
+    color: red;
+}
+.menu-table .wrapper-menu .left-col{
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    border-right: 5px solid forestgreen;
+}
+.menu-table .wrapper-menu .right-col{
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    border-right: 0px solid forestgreen;
+    padding-left: 1em;
+}
+.menu-table .wrapper-menu .left-col .menu_wrapper-box{
+    display: flex;
+    gap: 1.3em;
+}
+
+.menu-table .wrapper-menu .left-col .image-holder{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 12px solid forestgreen;
+    border-radius: 50%;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position:  center !important;
+}
+.menu-table .wrapper-menu .left-col .menu-text{
+   line-height: 2.0;
+   
+   display: flex;
+   flex-direction: column;
+}
+.menu-text h3{
+    font-size: 1.4rem;
+    color: forestgreen;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-text li{
+    font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.4rem;
+}
+strong{
+    color: forestgreen;
+    font-weight: bold;
+}
+.image-wrapper {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 12px solid forestgreen;
+    border-radius: 50%;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position:  center !important;
+}
+
+
+/* Your existing CSS code */
+
+/* Media query for a max-width of 450px */
+@media (max-width: 450px) {
+    
+.menu-table .menu-heading{
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+   
+}
+.main-dish::before{
+ display: none;
+ position: absolute;
+ bottom: -6px;
+
+ width: 90%;
+ height: 4px;
+ border-bottom: 3px solid forestgreen;
+}
+.menu-table .line-menu{
+    display: block;
+    height: 2px;
+    border-bottom:1px solid #000 ;
+    width: 100%;
+}
+    .image-wrapper {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        border: 8px solid forestgreen;
+        border-radius: 50%;
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position:  center !important;
+    }
+    .menu-table {
+      flex-direction: column;
+    }
+  
+    .menu-table .wrapper-menu {
+      flex-direction: column;
+
+    }
+    .menu-table .wrapper-menu{
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        gap: 2em;
+    }
+  
+    .menu-table .wrapper-menu .left-col,
+    .menu-table .wrapper-menu .right-col {
+      width: 100%;
+      border-right: 0px solid forestgreen;
+    }
+  }
+  
+  /* Media query for a max-width of 800px */
+  @media (max-width: 900px) {
+    .menu-table .wrapper-menu .left-col{
+        display: block;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        ;
+    }
+    .category-heading {
+        margin: 0;
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .food-category {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        place-content: center;
+        gap: 2rem;
+        margin: 1rem;
+    }
+
+    .menu-heading {
+      font-size: 1.8rem;
+    }
+  
+    .menu-table .wrapper-menu {
+      gap: 1em;
+    }
+  
+    .menu-table .wrapper-menu .left-col,
+    .menu-table .wrapper-menu .right-col {
+      width: 100%;
+    }
+    .menu-table {
+        flex-direction: column;
+      }
+    
+      .menu-table .wrapper-menu {
+        flex-direction: column;
+  
+      }
+      .menu-table .wrapper-menu{
+          display: flex;
+          width: 95%;
+          flex-direction: column;
+          gap: 2em;
+      }
+      .menu-table .wrapper-menu .left-col .menu_wrapper-box{
+        display: flex;
+        flex-direction: column;
+        gap: 1.3em;
+    }
+    
+      .menu-table .wrapper-menu .left-col,
+      .menu-table .wrapper-menu .right-col {
+        width: 100%;
+        border-right: 0px solid forestgreen;
+      }
+  }
+  
+  /* Media query for a max-width of 1200px */
+  @media (max-width: 1200px) {
+    /* Add your responsive CSS rules for 1200px here */
+  }
+  
+  /* Media query for a max-width of 350px */
+  @media (max-width: 350px) {
+    /* Add your responsive CSS rules for 350px here */
+  }
+  

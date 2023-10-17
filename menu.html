@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chop-i-Chop Int</title>
+
+  <!--Tailwindcss-->
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!--Font awesome link-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Kanit&family=Lato&family=Mukta&family=Poppins:wght@300;400;500&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@600;700&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Kanit&family=Lato&family=Mukta&family=Poppins:wght@300;400;500&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <link rel="shortcut icon" href="./images/logo/WhatsApp_Image_2023-08-07_at_14.59.08-removebg-preview.png" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/Menu.css" />
+
+  <link rel="stylesheet" href="./css/Navbar.css" />
+
+
+  <link rel="stylesheet" href="./css/responsiveness.css" />
+
+
+  <link rel="stylesheet" href="./scss/sass.css">
+
+</head>
+
+
+<section class="loader">
+  <div class="preloader"></div>
+</section>
+<div class="nav_container_2" id="navbar">
+  <span class="close_nav__line">
+    <i class="fa fa-times" aria-hidden="true" id="close_nav" onclick="(Closenav())"></i>
+  </span>
+  <div class="navbar__links__responsive_view">
+
+    <ul class="navbar__links__menu_1">
+      <li class="nav_list_menu"><a href="index.html">Home</a></li>
+      <li class="nav_list_menu"><a href="about.html">About</a></li>
+      <li class="nav_list_menu"><a href="menu.html">Menu</a></li>
+      <li class="nav_list_menu"><a href="contact.html">Contacts</a></li>
+      <li class="nav_list_menu"><a href="cart.html">Cart</a></li>
+    </ul>
+
+
+  </div>
+  <div class="navbar__icons">
+
+  </div>
+</div>
+<!--Navbar Starts-->
+
+<section class="navbar">
+  <div class="nav__menu">
+    <div class="logo">
+      <a href="#"><img src="./images/logo/WhatsApp_Image_2023-08-07_at_14.59.08-removebg-preview.png" alt="logo" /></a>
+      <i class="fa fa-bars" aria-hidden="true" id="toggle_navbar" onclick="(Opennav())"></i>
+    </div>
+
+  </div>
+  <div class="navbar__links__open">
+    <ul class="navbar__links__menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contacts</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </div>
+  <div class="navbar__links__icon">
+    <ul class="navbar__links__menu">
+      <li>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="menu-header">
+  <div class="menu-header-content">
+    <div class="menu-text-2">
+      <h2>Our Menu</h2>
+    </div>
+  </div>
+</section>
+
+<section class="menu">
+  <div class="category-heading p-4 mx-32 font-bold text-4xl text-green-600">
+    <h2>Categories</h2>
+  </div>
+
+  <div class="food-category flex">
+    <div class="flex-menu">
+      <div class="menu-box">
+        <img src="./images/menus/67913016-bowl-hot-plate-with-food-black-icon-on-white-background-removebg-preview.png"
+          alt="">
+        <div class="text-menu">
+          <h3>Authentic Foods</h3>
+          <p>We sell Drinks of all kinds to go with yout food</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-menu">
+      <div class="menu-box">
+        <img src="./images/menus/silhouette-of-a-drink-removebg-preview.png" alt="">
+        <div class="text-menu">
+          <h3>Drinks</h3>
+          <p>We sell Drinks of all kinds to go with your food</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br>
+
+
+<section class="menu-table">
+
+  <h1 class="menu-heading">Pick From Our Varities Of Meals</h1>
+
+  <div class="line-menu"></div>
+  <br><br><br><br>
+  <h1 class="menu-heading main-dish">Main Dishes Include</h1>
+  <br><br><br>
+  <br>
+  <div class="wrapper-menu">
+    <div class="left-col">
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/swallow-1.jpeg);"></div>
+        <br>
+        <div class="menu-text">
+          <h3 class="soup">swallows Include</h3>
+          <ul>
+            <li>Eba, Semo,</li>
+            <li>Pounded Yam, Fufu</li>
+            <li>Wheat, Amala</li>
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/menu-21.jpeg);"></div>
+        <div class="menu-text">
+          <h3 class="soup">Soups Include:</h3>
+          <ul>
+            <li>Egusi</li>
+            <li>Afang</li>
+            <li>Ogbono</li>
+            <li>Oha</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/menu-7.jpeg);"></div>
+        <div class="menu-text">
+          <h3 class="soup">Soups Include:</h3>
+          <ul>
+
+            <li>Bitterleaf</li>
+            <li>Ewedu</li>
+            <li>Edikangkong</li>
+            <li>Okro</li>
+            <li>Efo riro</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="left-col right-col">
+      <h3 class="soup">Dishes Served with</h3>
+      <div class="menu_wrapper-box">
+        <div class="image-holder"
+          style="background: url(images/store/WhatsApp\ Image\ 2023-08-19\ at\ 10.28.03\ PM.jpeg);"></div>
+        <br>
+        <div class="menu-text">
+
+          <ul>
+            <li>Goat Meat <span>- <strong>Ghc.110</strong></span></li>
+            <li></li>
+            <li>Cow Meat <span>- <strong>Ghc.100</strong></span></li>
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/admin-ajax.jpg) no-repeat;"></div>
+        <div class="menu-text">
+          <li>Titus Fish <span>- <strong>Ghc.100</strong></span></li>
+          <ul>
+            <li>Intestines <span>- <strong>Ghc.100</strong></span></li>
+            <li>Dry Catfish <span>- <strong>Ghc.100</strong></span></li>
+
+
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/menu-16.jpeg);"></div>
+        <div class="menu-text">
+          <li>Turkey <span>- <strong>Ghc.110</strong></span></li>
+          <ul>
+            <li>Assorted Meat <span>- <strong>Ghc.100</strong></span></li>
+            <li>Dry Catfish <span>- <strong>Ghc.100</strong></span></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+<br><br><br>
+
+<section class="menu-table">
+
+  <br>
+  <h3 class="soup">Peppered Soups</h3>
+  <div class="wrapper-menu">
+
+    <div class="left-col">
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/menu-1.jpeg);"></div>
+        <br>
+        <div class="menu-text">
+
+          <ul>
+            <li>Catfish pepper Soup <span>- <strong>Ghc.150</strong></span></li>
+            <li></li>
+            <li>Goat Meat pepper Soup<span>- <strong>Ghc.110</strong></span></li>
+            <li>Intenstine peop pepper Soup<span>- <strong>Ghc.110</strong></span></li>
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder"
+          style="background: url(images/store/WhatsApp\ Image\ 2023-08-19\ at\ 10.28.01\ PM.jpeg);"></div>
+        <div class="menu-text">
+
+          <ul>
+            <li>Pepper Snail<span>- <strong>Ghc.110</strong></span></li>
+          </ul>
+          <li></li>
+          <li>Cow tail<span>- <strong>Ghc.120</strong></span></li>
+          </ul>
+
+
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder"
+          style="background: url(images/store/WhatsApp\ Image\ 2023-08-19\ at\ 10.29.54\ PM.jpeg);"></div>
+        <div class="menu-text">
+          <ul>
+
+            <li>Ishiewu<span>- <strong>Ghc.120</strong></span></li>
+            <li></li>
+            <li></li>
+            <li>Nkwobi<span>- <strong>Ghc.100</strong></span></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="left-col right-col">
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/MOI-MOI.jpg);"></div>
+        <br>
+        <div class="menu-text">
+          <h2 class="soup">Special Dishes</h2>
+          <h2 class="soup">MOI MOI</h2>
+
+          <ul>
+            <li>Only<span>- <strong>Ghc.25</strong></span></li>
+
+            <li>with rice <span>- <strong>Ghc.80</strong></span></li>
+            <li></li>
+
+            <li>with Chicken <br> Beef/fish<span>- <strong>Ghc.100</strong></span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu_wrapper-box">
+        <div class="image-holder"
+          style="background: url(images/store/WhatsApp\ Image\ 2023-08-19\ at\ 10.29.55\ PM\ \(1\).jpeg);"></div>
+        <div class="menu-text">
+
+
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/PORRIDGE-YAM.jpg);"></div>
+        <div class="menu-text">
+          <h2 class="soup">PORRIDGE YAM</h2>
+          <ul>
+            <li>With 2pcs of chicken <span>- <strong>Ghc.90</strong></span></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+</section>
+
+<br><br><br>
+<section class="menu-table">
+
+
+  <div class="line-menu"></div>
+  <br>
+  <h1 class="menu-heading main-dish">Other Dishes Include</h1>
+  <br><br><br>
+  <br>
+  <div class="wrapper-menu">
+    <div class="left-col">
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/box-4.jpeg);"></div>
+        <br>
+        <div class="menu-text">
+          <h2 class="soup">Rice</h2>
+          <ul>
+            <li>Jollof rice with <br> fried chicken/fish<br>
+              plantain and salad<span>- <strong>Ghc.90</strong></span></li>
+            <li></li>
+            <li>With Goat meat <span>- <strong>Ghc.100</strong></span></li>
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/plain-white-rice-f7391e.jpg);"></div>
+        <div class="menu-text">
+
+          <ul>
+            <li>Plain rice with <br> chicken/fish/beef<br>and stew <span>- <strong>Ghc.90</strong></span></li>
+
+
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/box-5.jpeg);"></div>
+        <div class="menu-text">
+          <h2 class="soup">SPAGHETTI</h2>
+          <ul>
+
+            <li>spaghetti with chicken or beef<span>- <strong>Ghc.90</strong></span></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="left-col right-col">
+
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/Banku_with_grilled_tilapia_and_pepper.jpg);">
+        </div>
+        <br>
+        <div class="menu-text">
+          <h2 class="soup">Ghanaian Dishes</h2>
+          <ul>
+            <li>Banku with grilled tilipa and hot sauce<span>- <strong>Ghc.90</strong></span></li>
+
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/kei-food-6.jpg) no-repeat;"></div>
+        <div class="menu-text">
+
+          <ul>
+            <li>Banku with okro <br> stew served with <br> beef / fish <span>- <strong>Ghc.80</strong></span></li>
+
+          </ul>
+        </div>
+      </div>
+      <br><br>
+      <div class="menu_wrapper-box">
+        <div class="image-holder" style="background: url(images/store/menu-17.jpeg);"></div>
+        <div class="menu-text">
+
+          <ul>
+            <li>Beans and fried <br> plantain <span>- <strong>Ghc.80</strong></span></li>
+            <li> <span> <strong></strong></span></li>
+            <li>Yam with egg <br>sauce <span>- <strong>Ghc.80</strong></span></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<br><br><br>
+<!--footer starts-->
+<section class="footer">
+  <div class="footer-map">
+    <div class="footer-grid">
+
+      <div class="first-logo">
+        <img src="./images/logo/WhatsApp_Image_2023-08-07_at_14.59.08-removebg-preview.png" alt="">
+        <p>Chop-i-Chop Nigerian Restaurant</p>
+      </div>
+
+      <div class="grid-1">
+
+        <ul>
+          <h3>Links <i class="fa-solid fa-link"></i></h3>
+          </li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Contact</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+
+      <div class="grid-1">
+        <li>
+          <h3>Services <i class="fas fa-calendar-alt"></i></h3>
+        </Li>
+        <ul>
+
+          <li>Home delivery</li>
+          <li>Fast food</li>
+          <li>Orders</li>
+          <li>Occasions</li>
+        </ul>
+      </div>
+
+      <div class="social-link">
+
+        <ul>
+          <div class="span_i">
+
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-whatsapp"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+          </div>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="copyright-and-payment  mt-30">
+      <div class="copy">
+        <p> © 2023 Chop 'i' Chop Nigerian Restaurant.</p>
+      </div>
+      <div class="payment">
+        <img src="./images/svgs/payment.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Footer ends-->
+
+
+
+<script src="./js/app.js"></script>
+</body>
+
+</html>
