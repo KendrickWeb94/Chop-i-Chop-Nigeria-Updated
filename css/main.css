@@ -99,6 +99,8 @@ body {
     z-index: 10;
     opacity: 1;
     /* Corrected opacity value */
+    align-items:center;
+    justify-content:center;
     width: 100%;
     height: auto;
     top: 0;
@@ -110,6 +112,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width:100%;
 }
 
 .logo img {
