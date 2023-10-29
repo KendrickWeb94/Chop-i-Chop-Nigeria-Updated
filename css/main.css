@@ -98,9 +98,9 @@ body {
     position: sticky;
     z-index: 10;
     opacity: 1;
+    align-items: center;
+    justify-content: center;
     /* Corrected opacity value */
-    align-items:center;
-    justify-content:center;
     width: 100%;
     height: auto;
     top: 0;
@@ -112,11 +112,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:100%;
+    gap: 1.5rem;
 }
 
 .logo img {
-    width: 180px;
+    width: 150px;
     margin-left: 40px;
 }
 
@@ -568,7 +568,6 @@ body {
     color: #fff;
     font-size: 1.5rem;
 }
-
 
 
 .container-5 {
@@ -1667,18 +1666,26 @@ form .form-row .textarea {
     height: auto;
     margin: 20px;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-6 .container__About_Us {
     margin: 20px;
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 2rem;
     align-items: center;
+    justify-content: center;
 }
 
 .container-6 .container__About_Us .image__About {
     object-fit: contain;
+        align-items: center;
+    justify-content: center;
 }
 
 .container-6 .container__About_Us .image__About img {
